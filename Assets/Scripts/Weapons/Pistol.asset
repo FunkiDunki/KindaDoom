@@ -21,7 +21,7 @@ MonoBehaviour:
   spreadGain: 0
   spreadLoss: 0
   maxAmmo: 4
-  fireTrail: {fileID: 5083388734012604493, guid: 9d0854d53a0517b48aa4d2f3d3b49bff,
+  fireTrail: {fileID: 158135193945572584, guid: bc67f762348303843abd2a31a168f94b,
     type: 3}
   numBullets: 1
   shotCost: 1

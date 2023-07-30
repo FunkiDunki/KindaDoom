@@ -20,7 +20,7 @@ public class AutoWeaponInfo : ScriptableObject
     public float spreadGain;
     public float spreadLoss;
     public int maxAmmo;
-    public TrailRenderer fireTrail;
+    public GameObject fireTrail;
     public int numBullets;
     public int shotCost;
 }

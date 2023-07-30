@@ -20,19 +20,4 @@ public static class WeaponAssists
         return false;
     }
 
-    public static IEnumerator SpawnFireTrail(TrailRenderer trail, Vector3 hit)
-    {
-        float time = 0;
-        Vector3 startPosition = trail.transform.position;
-
-        while (time < Vector3.Distance(startPosition, hit))
-        {
-            trail.transform.position = Vector3.Lerp(startPosition, hit, time / Vector3.Distance(startPosition, hit));
-            time += Time.deltaTime / trail.time;
-
-            yield return null;
-        }
-
-        MonoBehaviour.Destroy(trail.gameObject, trail.time);
-    }
 }

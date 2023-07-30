@@ -44,8 +44,6 @@ public class AutomaticWeap : Weapon
         Vector3 firedDirection;//relative to camera
         if (WeaponAssists.HitScanWithSpread(this, curSpread, out hit, out firedDirection))
         {
-            TrailRenderer trail = Instantiate(info.fireTrail, shootPoint.transform.position, Quaternion.identity);
-            StartCoroutine(WeaponAssists.SpawnFireTrail(trail, hit.point));
             Damageable damageable;
             if (hit.transform.TryGetComponent(out damageable))
             {
@@ -60,14 +58,9 @@ public class AutomaticWeap : Weapon
             }
         }
 
-        else
-        {
-            //nothing was hit:
-            TrailRenderer trail = Instantiate(info.fireTrail, shootPoint.transform.position, Quaternion.identity);
-            Vector3 hitPos = Camera.main.transform.position + firedDirection * info.focalLength;
-            StartCoroutine(WeaponAssists.SpawnFireTrail(trail, hitPos));
-        }
-
+        GameObject trail = Instantiate(info.fireTrail, shootPoint.transform.position, Quaternion.identity);
+        Vector3 hitPos = Camera.main.transform.position + firedDirection * info.focalLength;
+        
 
     }
 
