@@ -236,7 +236,7 @@ public class PlayerController : MonoBehaviour
                 //check if the interact button is pressed:
                 if (Input.GetButtonDown("Interact"))
                 {
-                    inter.Interact(this);
+                    inter.Interact();
                 }
             }
         }
