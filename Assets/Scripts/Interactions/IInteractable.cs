@@ -5,5 +5,5 @@ using UnityEngine;
 public interface IInteractable
 {
     public string GetInteractionName();
-    public void Interact(PlayerController pc);
+    public void Interact();
 }
