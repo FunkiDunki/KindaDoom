@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireMethod: 0
   shotdmg: 10
-  fireRate: 0.5
+  fireRate: 1
   focalLength: 20
   maxSpread: 0
   minSpread: 0
   spreadGain: 0
   spreadLoss: 0
-  maxAmmo: 6
+  maxAmmo: 4
   fireTrail: {fileID: 5083388734012604493, guid: 9d0854d53a0517b48aa4d2f3d3b49bff,
     type: 3}
   numBullets: 1

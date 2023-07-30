@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8368349742542538838}
   - component: {fileID: 1662929877554615426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5911392655164410541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bone_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2700080136895730186}
   - component: {fileID: 5084278539372431821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6951231229059317933}
   - component: {fileID: 2662051605254271747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1079706375355744980}
   - component: {fileID: 5520511375678503501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1943326579126371121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5404467192129462475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +449,8 @@ GameObject:
   m_Component:
   - component: {fileID: 212587630996413047}
   - component: {fileID: 1696698813939593206}
-  m_Layer: 0
+  - component: {fileID: 4474400693260796201}
+  m_Layer: 6
   m_Name: pistol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +477,7 @@ Transform:
   - {fileID: 1079706375355744980}
   - {fileID: 6951231229059317933}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1696698813939593206
 Animator:
@@ -499,6 +500,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4474400693260796201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6862850283178285306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b66cf4eafce3e444bc6b0c8fc384c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootPoint: {fileID: 4527498327105205259}
+  anim: {fileID: 1696698813939593206}
+  info: {fileID: 11400000, guid: 95c7f4d671a13104bba2447d419449e5, type: 2}
 --- !u!1 &7764809476336295914
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,7 +525,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2547724649384226821}
   - component: {fileID: 2809915326001791916}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,7 +611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5313093936106813414}
   - component: {fileID: 6019078819861888896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -91,7 +91,7 @@ public class AutomaticWeap : Weapon
     protected override void Update()
     {
         base.Update();
-        if (held && curDelay <= 0.0f && curAmmo > 0 && !shotLock && anim.GetCurrentAnimatorStateInfo(0).IsTag("cancleable"))
+        if (held && curDelay <= 0.0f && curAmmo > 0 && !shotLock && anim.GetCurrentAnimatorStateInfo(0).IsTag("cancelable"))
         {
             Fire();
         }

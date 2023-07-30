@@ -40,7 +40,7 @@ public abstract class Weapon : MonoBehaviour
 
     public void StartSwap()
     {
-        anim.SetTrigger("Sheath");
+        anim.SetTrigger("Swap");
     }
 
     public void StartUnsheath()
