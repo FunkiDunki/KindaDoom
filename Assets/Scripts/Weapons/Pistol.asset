@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe484d253a43fa74fbd4d1253a0e329a, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  fireMethod: 0
+  shotdmg: 10
+  fireRate: 0.5
+  focalLength: 20
+  maxSpread: 0
+  minSpread: 0
+  spreadGain: 0
+  spreadLoss: 0
+  maxAmmo: 6
+  fireTrail: {fileID: 5083388734012604493, guid: 9d0854d53a0517b48aa4d2f3d3b49bff,
+    type: 3}
+  numBullets: 1
+  shotCost: 1
