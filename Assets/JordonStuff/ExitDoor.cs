@@ -60,4 +60,7 @@ public class ExitDoor : MonoBehaviour, IInteractable
         openable = false;
 
     }
+
+
+
 }

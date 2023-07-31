@@ -1290,7 +1290,7 @@ Transform:
   - {fileID: 4067305798291263857}
   - {fileID: 3585712410642267251}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7429940627133368699
 GameObject:
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   doorScript: {fileID: 8111005833491398186}
   decoySpawnroom: {fileID: 5975833870304622440}
   rewardType: 1
-  reward: {fileID: 517260639986031853, guid: 8e8bffff3e515bc4cafba5def7a8a1a1, type: 3}
+  reward: {fileID: 8257515818247014403, guid: 169bab9459567174fa7c75cd7709c5be, type: 3}
 --- !u!114 &8111005833491398186
 MonoBehaviour:
   m_ObjectHideFlags: 0

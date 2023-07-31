@@ -560,7 +560,7 @@ MonoBehaviour:
   doorScript: {fileID: 3766945693179752830}
   decoySpawnroom: {fileID: 2774616822798544849}
   rewardType: 2
-  reward: {fileID: 7637773694278630388, guid: aaddb0af929fb50439346b9cb0b92dae, type: 3}
+  reward: {fileID: 8257515818247014403, guid: 169bab9459567174fa7c75cd7709c5be, type: 3}
 --- !u!114 &3766945693179752830
 MonoBehaviour:
   m_ObjectHideFlags: 0
