@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SkillInfo
   icon: {fileID: 0}
   skillName: Brusef
-  description: ss
+  description: Bruh button, bruh button, bruh
+  cost: 0
