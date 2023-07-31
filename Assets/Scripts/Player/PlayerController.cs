@@ -229,7 +229,7 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 10.0f))
         {
             IInteractable inter = hit.transform.GetComponentInParent<IInteractable>();
-            if (inter != null)
+            if (inter != null && inter.InteractActive())
             {
                 //we found an interactable object
                 interactionTextbox.text = inter.GetInteractionName() + ": E";

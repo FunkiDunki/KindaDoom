@@ -6,4 +6,8 @@ public interface IInteractable
 {
     public string GetInteractionName();
     public void Interact();
+    public bool InteractActive()
+    {
+        return true;
+    }
 }

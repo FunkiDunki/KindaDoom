@@ -29,7 +29,9 @@ public class SpawnRoomExitDoor : MonoBehaviour, IInteractable
     public void Interact()
     {
         doorScript.open();
+
     }
+    
     public void OnTriggerEnter(Collider other)
     {
         if(other.transform.TryGetComponent(out PlayerController C))

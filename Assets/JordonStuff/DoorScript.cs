@@ -8,6 +8,7 @@ public class DoorScript : MonoBehaviour
     public Collider colider;
     void Start()
     {
+        enabled = true;
         animator = GetComponent<Animator>();
     }
 
@@ -23,6 +24,8 @@ public class DoorScript : MonoBehaviour
         animator.SetTrigger("close");
         colider.enabled = true;
     }
+
+    
 
     // Update is called once per frame
     void Update()

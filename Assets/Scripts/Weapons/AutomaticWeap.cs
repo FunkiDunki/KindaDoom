@@ -60,6 +60,8 @@ public class AutomaticWeap : Weapon
 
         GameObject trail = Instantiate(info.fireTrail, shootPoint.transform.position, Quaternion.identity);
         Vector3 hitPos = Camera.main.transform.position + firedDirection * info.focalLength;
+        trail.transform.LookAt(hitPos);
+        Destroy(trail, 1.0f);
         
 
     }
