@@ -12,6 +12,8 @@ public class ExitDoor : MonoBehaviour, IInteractable
     public RewardType rewardType;
     public GameObject reward;
 
+
+    static bool openable = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +33,16 @@ public class ExitDoor : MonoBehaviour, IInteractable
             Vector3 relPos = player.transform.position - transform.position;
             player.transform.position = SpawnRoom.instance.door.transform.position + relPos;
             SpawnRoom.instance.newRoom();
+            openable = true;
+
+
         }
 
+    }
+
+    public bool InteractActive()
+    {
+        return openable;
     }
 
     public string GetInteractionName()
@@ -47,6 +57,7 @@ public class ExitDoor : MonoBehaviour, IInteractable
         decoySpawnroom.SetActive(true);
         decoySpawnroom.GetComponent<DecoySpawnRoom>().spawnReward(reward);
         SpawnRoom.instance.setReward(reward);
+        openable = false;
 
     }
 }
