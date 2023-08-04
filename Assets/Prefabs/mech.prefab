@@ -1317,9 +1317,9 @@ MonoBehaviour:
   - {fileID: 5504463968387065901}
   - {fileID: 132796033472303648}
   - {fileID: 5970088017267900564}
-  stepPercent: 0.75
-  stepLength: 0.2
-  stepHeight: 0.15
+  stepPercent: 0.5
+  stepLength: 0.15
+  stepHeight: 0.25
 --- !u!1 &5228310293072088346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,6 +1749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5829998203854275561}
   - component: {fileID: 53780678461407316}
+  - component: {fileID: 2461535808266509446}
   m_Layer: 0
   m_Name: mech
   m_TagString: Untagged
@@ -1800,8 +1801,30 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   healthMax: 60
-  agro_distance: 0
-  agro_loss: 0
+  agro_distance: 10
+  agro_loss: 15
+--- !u!195 &2461535808266509446
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108586753514832951}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.84
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.13
+  m_BaseOffset: -0.09
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6325009518819416642
 GameObject:
   m_ObjectHideFlags: 0
