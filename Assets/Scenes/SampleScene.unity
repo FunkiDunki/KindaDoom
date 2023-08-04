@@ -2397,9 +2397,10 @@ GameObject:
   - component: {fileID: 1664696049}
   - component: {fileID: 1664696048}
   - component: {fileID: 1664696047}
+  - component: {fileID: 1664696051}
   m_Layer: 0
   m_Name: RedDude
-  m_TagString: Untagged
+  m_TagString: hitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2493,6 +2494,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 163.077, z: 0}
+--- !u!114 &1664696051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664696046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef94799d3ad00a41966fb57d785eace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  healthMax: 100
+  agro_distance: 0
+  agro_loss: 0
 --- !u!1 &1679617063
 GameObject:
   m_ObjectHideFlags: 0
