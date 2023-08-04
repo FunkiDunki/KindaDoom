@@ -44,8 +44,8 @@ public class AutomaticWeap : Weapon
         Vector3 firedDirection;//relative to camera
         if (WeaponAssists.HitScanWithSpread(this, curSpread, out hit, out firedDirection))
         {
-            Damageable damageable;
-            if (hit.transform.TryGetComponent(out damageable))
+            Damageable damageable = hit.transform.GetComponentInParent<Damageable>();
+            if (damageable != null)
             {
                 if (hit.collider.CompareTag("critical"))
                 {

@@ -35,7 +35,6 @@ public class ProceduralWalk : MonoBehaviour
         if (timeSinceStepped > stepLength * stepPercent)
         {
             step();
-            Debug.Log("step");
         }
         else
         {

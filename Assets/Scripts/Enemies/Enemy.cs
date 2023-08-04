@@ -81,7 +81,7 @@ public abstract class Enemy : Damageable
         }
 
         //look for new targets:
-        /*else
+        else
         {
             Trackable[] trackables = Trackable.GetAllTrackables();
             for (int i = 0; i < trackables.Length; i++)
@@ -95,7 +95,7 @@ public abstract class Enemy : Damageable
                 }
             }
             //may return here if nothing is close enough to track!
-        }*/
+        }
 
     }
 
